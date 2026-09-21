@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- RESPONSIVE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Portafolio personal de María Fernanda Santos, estudiante de Diseño Gráfico en Tegucigalpa, Honduras.">
+    <meta name="keywords"
+        content="María Fernanda Santos, diseño gráfico, branding, diseño web, portafolio, Honduras">
+    <meta name="author" content="María Fernanda Santos">
+
+    <title>María Fernanda Santos | Portafolio</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- FANCYBOX -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+    <!-- WOW ANIMATION -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="css/bootstrap-custom.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVEGACIÓN
+    ========================== -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-personal">
+
+            <div class="container">
+
+                <!-- NOMBRE / LOGO -->
+                <a class="navbar-brand" href="#inicio">
+                    Maria<span>.</span>
+                </a>
+
+                <!-- BOTÓN MÓVIL -->
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal"
+                    aria-controls="menuPrincipal"
+                    aria-expanded="false"
+                    aria-label="Abrir menú">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+                <!-- MENÚ -->
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#inicio">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#acerca">Acerca de mí</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicios</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portafolio">Portafolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link boton-contacto" href="#contacto">
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             INICIO
+        ========================== -->
+
+        <section id="inicio" class="hero">
+
+            <div class="container">
+
+                <div class="row align-items-center min-vh-100">
+
+                    <!-- TEXTO -->
+
+                    <div class="col-lg-6 hero-texto">
+
+                        <span class="mini-titulo">
+                            PORTAFOLIO PERSONAL
+                        </span>
+
+                        <h1>
+                            ¡Hola! Soy
+                            <span>María Fernanda</span>
+                            Santos.
+                        </h1>
+
+                        <h2>
+                            Estudiante de Diseño Gráfico
+                        </h2>
+
+                        <p>
+                            Diseñadora creativa enfocada en branding,
+                            diseño visual y explorando el mundo del
+                            diseño web.
+                        </p>
+
+                        <div class="hero-botones">
+
+                            <a href="#portafolio"
+                                class="btn btn-principal">
+                                Ver proyectos
+                            </a>
+
+                            <a href="#acerca"
+                                class="btn btn-secundario">
+                                Conóceme
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FOTO -->
+
+                    <div class="col-lg-6 text-center">
+
+                        <div class="contenedor-foto">
+
+                            <div class="decoracion decoracion-1"></div>
+                            <div class="decoracion decoracion-2"></div>
+
+                            <div class="foto-principal">
+                                <img src="img/maria.jpg"
+                                    alt="María Fernanda Santos">
+                            </div>
+
+                            <div class="etiqueta-foto">
+                                <i class="fa-solid fa-pen-nib"></i>
+                                Diseño & Creatividad
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             ACERCA DE MÍ
+        ========================== -->
+
+        <section id="acerca" class="seccion acerca">
+
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <!-- DECORACIÓN -->
+
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+
+                        <div class="acerca-grafico">
+
+                            <span>01</span>
+
+                            <h3>
+                                Diseñar.<br>
+                                Crear.<br>
+                                <strong>Aprender.</strong>
+                            </h3>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- INFORMACIÓN -->
+
+                    <div class="col-lg-7">
+
+                        <span class="subtitulo">
+                            ACERCA DE MÍ
+                        </span>
+
+                        <h2 class="titulo-seccion">
+                            Conoce un poco
+                            <span>sobre mí.</span>
+                        </h2>
+
+                        <p>
+                            Soy María Fernanda Santos, estudiante de
+                            cuarto año de la carrera de Diseño Gráfico
+                            en la Universidad Tecnológica de Honduras,
+                            en Tegucigalpa.
+                        </p>
+
+                        <p>
+                            Actualmente curso la clase de Diseño Web I
+                            durante el tercer trimestre del año. Me
+                            interesa el diseño gráfico, el branding y
+                            la creación de propuestas visuales.
+                        </p>
+
+                        <p>
+                            También estoy ampliando mis conocimientos
+                            hacia el diseño y desarrollo de páginas web,
+                            combinando creatividad, comunicación visual
+                            y herramientas digitales.
+                        </p>
+
+
+                        <!-- DATOS -->
+
+                        <div class="row datos-personales">
+
+                            <div class="col-md-6 dato">
+
+                                <i class="fa-solid fa-location-dot"></i>
+
+                                <div>
+                                    <small>Ubicación</small>
+                                    <p>Tegucigalpa, Honduras</p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 dato">
+
+                                <i class="fa-solid fa-graduation-cap"></i>
+
+                                <div>
+                                    <small>Carrera</small>
+                                    <p>Diseño Gráfico</p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 dato">
+
+                                <i class="fa-solid fa-building-columns"></i>
+
+                                <div>
+                                    <small>Universidad</small>
+                                    <p>Universidad Tecnológica de Honduras</p>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-6 dato">
+
+                                <i class="fa-solid fa-laptop-code"></i>
+
+                                <div>
+                                    <small>Actualmente</small>
+                                    <p>Diseño Web I</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICIOS
+        ========================== -->
+
+        <section id="servicios" class="seccion servicios">
+
+            <div class="container">
+
+                <div class="encabezado-seccion text-center">
+
+                    <span class="subtitulo">
+                        LO QUE HAGO
+                    </span>
+
+                    <h2 class="titulo-seccion">
+                        Mis habilidades y
+                        <span>servicios.</span>
+                    </h2>
+
+                    <p>
+                        Áreas y herramientas que forman parte de mi
+                        desarrollo como estudiante de Diseño Gráfico.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- SERVICIO 1 -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="tarjeta-servicio">
+
+                            <span class="numero-servicio">01</span>
+
+                            <div class="icono-servicio">
+                                <i class="fa-solid fa-pen-ruler"></i>
+                            </div>
+
+                            <h3>Diseño Gráfico</h3>
+
+                            <p>
+                                Creación de propuestas visuales,
+                                composiciones y piezas gráficas
+                                utilizando Adobe Illustrator.
+                            </p>
+
+                            <span class="programa">
+                                Illustrator
+                            </span>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- SERVICIO 2 -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="tarjeta-servicio">
+
+                            <span class="numero-servicio">02</span>
+
+                            <div class="icono-servicio">
+                                <i class="fa-solid fa-image"></i>
+                            </div>
+
+                            <h3>Edición Visual</h3>
+
+                            <p>
+                                Edición y composición de imágenes
+                                para diferentes proyectos y piezas
+                                de comunicación visual.
+                            </p>
+
+                            <span class="programa">
+                                Photoshop
+                            </span>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- SERVICIO 3 -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="tarjeta-servicio">
+
+                            <span class="numero-servicio">03</span>
+
+                            <div class="icono-servicio">
+                                <i class="fa-solid fa-book-open"></i>
+                            </div>
+
+                            <h3>Diseño Editorial</h3>
+
+                            <p>
+                                Diagramación y organización de
+                                información para presentaciones
+                                y diferentes piezas editoriales.
+                            </p>
+
+                            <span class="programa">
+                                InDesign
+                            </span>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- SERVICIO 4 -->
+
+                    <div class="col-md-6 col-lg-3">
+
+                        <article class="tarjeta-servicio">
+
+                            <span class="numero-servicio">04</span>
+
+                            <div class="icono-servicio">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+
+                            <h3>Diseño Web</h3>
+
+                            <p>
+                                Desarrollo de conocimientos básicos
+                                en creación y diseño de páginas web
+                                mediante HTML y CSS.
+                            </p>
+
+                            <span class="programa">
+                                HTML + CSS
+                            </span>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROGRAMAS -->
+
+                <div class="herramientas">
+
+                    <p>Herramientas que utilizo</p>
+
+                    <div class="herramientas-lista">
+
+                        <span>Illustrator</span>
+                        <span>Photoshop</span>
+                        <span>InDesign</span>
+                        <span>Canva</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PORTAFOLIO
+        ========================== -->
+
+        <section id="portafolio" class="seccion portafolio">
+
+            <div class="container">
+
+                <div class="encabezado-seccion">
+
+                    <span class="subtitulo">
+                        MIS TRABAJOS
+                    </span>
+
+                    <h2 class="titulo-seccion">
+                        Algunos de mis
+                        <span>proyectos.</span>
+                    </h2>
+
+                    <p>
+                        Una selección de proyectos desarrollados
+                        durante mi formación académica.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- PROYECTO 1 -->
+
+                    <div class="col-md-6">
+
+                        <article class="proyecto">
+
+                            <figure>
+
+                                <a href="img/proyecto-feber.jpg"
+                                    data-fancybox="galeria"
+                                    data-caption="Feber X Honduras - Perfil de Proyecto">
+
+                                    <img src="img/proyecto-feber.jpg"
+                                        alt="Proyecto Feber X Honduras">
+
+                                    <div class="overlay">
+
+                                        <i class="fa-solid fa-plus"></i>
+
+                                    </div>
+
+                                </a>
+
+                            </figure>
+
+                            <div class="proyecto-info">
+
+                                <span>
+                                    DISEÑO WEB · PROYECTO ACADÉMICO
+                                </span>
+
+                                <h3>
+                                    Feber X Honduras
+                                </h3>
+
+                                <p>
+                                    Perfil de una plataforma digital
+                                    creada para facilitar la búsqueda
+                                    de eventos en Honduras.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- PROYECTO 2 -->
+
+                    <div class="col-md-6">
+
+                        <article class="proyecto">
+
+                            <figure>
+
+                                <a href="img/propuesta-feber.jpg"
+                                    data-fancybox="galeria"
+                                    data-caption="Propuesta Feber X Honduras">
+
+                                    <img src="img/propuesta-feber.jpg"
+                                        alt="Propuesta Feber X Honduras">
+
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </a>
+
+                            </figure>
+
+                            <div class="proyecto-info">
+
+                                <span>
+                                    UX/UI · DISEÑO WEB
+                                </span>
+
+                                <h3>
+                                    Propuesta de Proyecto
+                                </h3>
+
+                                <p>
+                                    Propuesta visual y maquetación
+                                    para la plataforma Feber X Honduras.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- PROYECTO 3 -->
+
+                    <div class="col-md-6">
+
+                        <article class="proyecto">
+
+                            <figure>
+
+                                <a href="img/iot.jpg"
+                                    data-fancybox="galeria"
+                                    data-caption="Internet de las Cosas">
+
+                                    <img src="img/iot.jpg"
+                                        alt="Proyecto Internet de las Cosas">
+
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </a>
+
+                            </figure>
+
+                            <div class="proyecto-info">
+
+                                <span>
+                                    INVESTIGACIÓN · TECNOLOGÍA
+                                </span>
+
+                                <h3>
+                                    Internet de las Cosas
+                                </h3>
+
+                                <p>
+                                    Reflexión académica acerca del IoT,
+                                    la tecnología y la importancia de
+                                    la nueva era digital.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- PROYECTO 4 -->
+
+                    <div class="col-md-6">
+
+                        <article class="proyecto">
+
+                            <figure>
+
+                                <a href="img/codecademy.jpg"
+                                    data-fancybox="galeria"
+                                    data-caption="Cursos Codecademy">
+
+                                    <img src="img/codecademy.jpg"
+                                        alt="Cursos de Codecademy">
+
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </a>
+
+                            </figure>
+
+                            <div class="proyecto-info">
+
+                                <span>
+                                    DESARROLLO WEB · APRENDIZAJE
+                                </span>
+
+                                <h3>
+                                    Cursos Codecademy
+                                </h3>
+
+                                <p>
+                                    Formación complementaria y
+                                    aprendizaje de fundamentos
+                                    de HTML y CSS.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- PROYECTO 5 -->
+
+                    <div class="col-md-6">
+
+                        <article class="proyecto">
+
+                            <figure>
+
+                                <a href="img/sem-seo.jpg"
+                                    data-fancybox="galeria"
+                                    data-caption="Presentación SEM & SEO">
+
+                                    <img src="img/sem-seo.jpg"
+                                        alt="Presentación SEM y SEO">
+
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </a>
+
+                            </figure>
+
+                            <div class="proyecto-info">
+
+                                <span>
+                                    MARKETING DIGITAL · PRESENTACIÓN
+                                </span>
+
+                                <h3>
+                                    SEM & SEO
+                                </h3>
+
+                                <p>
+                                    Presentación académica sobre
+                                    motores de búsqueda, posicionamiento
+                                    SEO y estrategias SEM.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <!-- PROYECTO 6 -->
+
+                    <div class="col-md-6">
+
+                        <article class="proyecto">
+
+                            <figure>
+
+                                <a href="img/youtube-obs.jpg"
+                                    data-fancybox="galeria"
+                                    data-caption="YouTube Live + OBS Studio">
+
+                                    <img src="img/youtube-obs.jpg"
+                                        alt="Proyecto YouTube Live y OBS Studio">
+
+                                    <div class="overlay">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </div>
+
+                                </a>
+
+                            </figure>
+
+                            <div class="proyecto-info">
+
+                                <span>
+                                    STREAMING · PRESENTACIÓN
+                                </span>
+
+                                <h3>
+                                    YouTube Live + OBS Studio
+                                </h3>
+
+                                <p>
+                                    Investigación y presentación
+                                    sobre herramientas para producción
+                                    y transmisión de contenido digital.
+                                </p>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section id="contacto" class="seccion contacto">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- TEXTO -->
+
+                    <div class="col-lg-5 mb-5 mb-lg-0">
+
+                        <span class="subtitulo">
+                            CONTACTO
+                        </span>
+
+                        <h2 class="titulo-seccion">
+                            ¿Creamos algo
+                            <span>juntos?</span>
+                        </h2>
+
+                        <p>
+                            Si deseas conocer más sobre mis proyectos
+                            académicos, puedes contactarme a través
+                            de mi correo institucional.
+                        </p>
+
+                        <div class="correo-contacto">
+
+                            <div class="correo-icono">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+
+                            <div>
+                                <small>Correo institucional</small>
+
+                                <a href="mailto:marianativi11@unitec.edu">
+                                    marianativi11@unitec.edu
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FORMULARIO -->
+
+                    <div class="col-lg-7">
+
+                        <form class="formulario-contacto">
+
+                            <div class="row g-4">
+
+                                <div class="col-md-6">
+
+                                    <label for="nombre"
+                                        class="form-label">
+                                        Nombre
+                                    </label>
+
+                                    <input type="text"
+                                        class="form-control"
+                                        id="nombre"
+                                        placeholder="Tu nombre">
+
+                                </div>
+
+
+                                <div class="col-md-6">
+
+                                    <label for="correo"
+                                        class="form-label">
+                                        Correo
+                                    </label>
+
+                                    <input type="email"
+                                        class="form-control"
+                                        id="correo"
+                                        placeholder="tu@correo.com">
+
+                                </div>
+
+
+                                <div class="col-12">
+
+                                    <label for="mensaje"
+                                        class="form-label">
+                                        Mensaje
+                                    </label>
+
+                                    <textarea
+                                        class="form-control"
+                                        id="mensaje"
+                                        rows="6"
+                                        placeholder="Escribe tu mensaje..."></textarea>
+
+                                </div>
+
+
+                                <div class="col-12">
+
+                                    <button type="submit"
+                                        class="btn btn-principal">
+                                        Enviar mensaje
+
+                                        <i class="fa-solid fa-arrow-right ms-2"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-contenido">
+
+                <a href="#inicio" class="footer-logo">
+                    Maria<span>.</span>
+                </a>
+
+                <p>
+                    Portafolio académico · Diseño Gráfico
+                </p>
+
+                <p>
+                    © 2026 María Fernanda Santos
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BOOTSTRAP JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- FANCYBOX -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js">
+    </script>
+
+    <script>
+        Fancybox.bind("[data-fancybox='galeria']", {
+            Thumbs: false
+        });
+    </script>
+
+</body>
+
+</html>

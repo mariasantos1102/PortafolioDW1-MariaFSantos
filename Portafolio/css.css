@@ -1,0 +1,1339 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ==========================================
+   PORTAFOLIO - MARÍA FERNANDA SANTOS
+========================================== */
+
+:root {
+
+    --rosa: #e75480;
+    --rosa-oscuro: #b83b65;
+    --rosa-claro: #f6c1d1;
+    --rosa-fondo: #fff5f8;
+
+    --blanco: #ffffff;
+    --texto: #2b2025;
+    --gris: #75686e;
+    --gris-claro: #f7f3f5;
+
+}
+
+
+/* ==========================================
+   GENERAL
+========================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    font-family: "DM Sans", sans-serif;
+
+    color:  #2b2025;
+
+    background-color: #ffffff;
+
+    overflow-x: hidden;
+
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+section {
+    scroll-margin-top: 80px;
+}
+
+
+.seccion {
+    padding: 110px 0;
+}
+
+
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.navbar-personal {
+
+    background: rgba(255, 255, 255, 0.95);
+
+    backdrop-filter: blur(12px);
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid rgba(231, 84, 128, 0.10);
+
+}
+
+
+.navbar-brand {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    color:  #2b2025;
+
+}
+
+
+.navbar-brand span {
+   color: #e75480;
+}
+
+
+.navbar-personal .nav-link {
+
+    color:  #2b2025;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    margin-left: 20px;
+
+    transition: 0.3s;
+
+}
+
+
+.navbar-personal .nav-link:hover {
+
+    color: #e75480;
+
+}
+
+
+.boton-contacto {
+
+   background-color: #fff5f8;
+
+    color: white !important;
+
+    padding: 10px 22px !important;
+
+    border-radius: 50px;
+
+}
+
+
+.boton-contacto:hover {
+
+    background-color: #b83b65;
+
+}
+
+
+.navbar-toggler {
+
+    border: none;
+
+    color: #2b2025;
+
+    font-size: 24px;
+
+}
+
+
+.navbar-toggler:focus {
+
+    box-shadow: none;
+
+}
+
+
+/* ==========================================
+   HERO
+========================================== */
+
+.hero {
+
+    min-height: 100vh;
+
+    background:
+
+        radial-gradient(
+            circle at 85% 35%,
+            #f8d8e2 0%,
+            transparent 28%
+        ),
+
+        linear-gradient(
+            135deg,
+            #ffffff 0%,
+            #fff8fa 100%
+        );
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+
+.hero-texto {
+
+    padding-top: 140px;
+
+}
+
+
+.mini-titulo,
+.subtitulo {
+
+    display: inline-block;
+
+    color: #e75480;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 18px;
+
+}
+
+
+.hero h1 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(55px, 7vw, 90px);
+
+    font-weight: 700;
+
+    line-height: 0.98;
+
+    margin-bottom: 25px;
+
+}
+
+
+.hero h1 span {
+
+    display: block;
+
+    color: #e75480;
+
+}
+
+
+.hero h2 {
+
+    font-size: 21px;
+
+    font-weight: 600;
+
+    margin-bottom: 20px;
+
+}
+
+
+.hero p {
+
+    color: var(--gris);
+
+    font-size: 17px;
+
+    line-height: 1.8;
+
+    max-width: 520px;
+
+}
+
+
+.hero-botones {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-top: 35px;
+
+}
+
+
+.btn-principal {
+
+    background-color:#e75480;
+
+    border: 2px solid #e75480;
+
+    color: white;
+
+    border-radius: 50px;
+
+    padding: 13px 28px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+
+.btn-principal:hover {
+
+    background-color: #e75480;
+
+    border-color: #e75480;
+
+    color: white;
+
+    transform: translateY(-3px);
+
+}
+
+
+.btn-secundario {
+
+    border: 2px solid #e75480;
+
+    color: #e75480;
+
+    border-radius: 50px;
+
+    padding: 13px 28px;
+
+    font-weight: 600;
+
+}
+
+
+.btn-secundario:hover {
+
+    background-color: #e75480;
+
+    color: white;
+
+}
+
+
+/* ==========================================
+   FOTO PRINCIPAL
+========================================== */
+
+.contenedor-foto {
+
+    width: 500px;
+
+    height: 570px;
+
+    max-width: 100%;
+
+    margin: 100px auto 0;
+
+    position: relative;
+
+}
+
+
+.foto-principal {
+
+    width: 280px;
+
+    height: 350px;
+
+    margin: auto;
+
+    border-radius: 220px 220px 35px 35px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    z-index: 2;
+
+    box-shadow: 0 30px 70px rgba(78, 36, 52, 0.16);
+
+}
+
+
+.foto-principal img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    object-position: center;
+
+}
+
+
+.decoracion {
+
+    position: absolute;
+
+    border-radius: 50%;
+
+}
+
+
+.decoracion-1 {
+
+    width: 280px;
+
+    height: 280px;
+
+    background-color: #e75480;
+
+    right: -20px;
+
+    top: -25px;
+
+}
+
+
+.decoracion-2 {
+
+    width: 150px;
+
+    height: 150px;
+
+    border: 3px solid #e75480;
+
+    left: 0;
+
+    bottom: 30px;
+
+}
+
+
+.etiqueta-foto {
+
+    position: absolute;
+
+    z-index: 4;
+
+    bottom: 20px;
+
+    left: 0;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    padding: 15px 20px;
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+.etiqueta-foto i {
+
+    color: #e75480;
+
+    margin-right: 8px;
+
+}
+
+
+/* ==========================================
+   TÍTULOS
+========================================== */
+
+.titulo-seccion {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: clamp(40px, 5vw, 62px);
+
+    font-weight: 700;
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+
+}
+
+
+.titulo-seccion span {
+
+    color: #e75480;
+
+}
+
+
+.encabezado-seccion {
+
+    max-width: 680px;
+
+    margin-bottom: 60px;
+
+}
+
+
+.encabezado-seccion.text-center {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+
+.encabezado-seccion p,
+.acerca p,
+.contacto p {
+
+    color: #75686e;
+
+    line-height: 1.8;
+
+}
+
+
+/* ==========================================
+   ACERCA
+========================================== */
+
+.acerca {
+
+    background-color: #fff5f8;
+
+}
+
+
+.acerca-grafico {
+
+    background-color: #2b2025;
+
+    color: white;
+
+    width: 390px;
+
+    max-width: 100%;
+
+    min-height: 430px;
+
+    border-radius: 35px;
+
+    padding: 50px;
+
+    position: relative;
+
+}
+
+
+.acerca-grafico span {
+
+    color: #f6c1d1;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+}
+
+
+.acerca-grafico h3 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 50px;
+
+    margin-top: 75px;
+
+    line-height: 1.2;
+
+}
+
+
+.acerca-grafico strong {
+
+    color: #f6c1d1;
+
+}
+
+
+.datos-personales {
+
+    margin-top: 35px;
+
+}
+
+
+.dato {
+
+    display: flex;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.dato i {
+
+    width: 45px;
+
+    height: 45px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: white;
+
+    color: var(--rosa);
+
+    border-radius: 50%;
+
+    flex-shrink: 0;
+
+}
+
+
+.dato small {
+
+    color: #75686e;
+
+}
+
+
+.dato p {
+
+    color: #2b2025;
+
+    font-weight: 600;
+
+    margin: 2px 0 0;
+
+}
+
+
+/* ==========================================
+   SERVICIOS
+========================================== */
+
+.servicios {
+
+    background-color: white;
+
+}
+
+
+.tarjeta-servicio {
+
+    min-height: 360px;
+
+    height: 100%;
+
+    padding: 35px 30px;
+
+    border: 1px solid #f1dce3;
+
+    border-radius: 25px;
+
+    position: relative;
+
+    transition: 0.35s;
+
+}
+
+
+.tarjeta-servicio:hover {
+
+    transform: translateY(-10px);
+
+    border-color: #e75480;
+
+    box-shadow: 0 20px 50px rgba(108, 46, 68, 0.10);
+
+}
+
+
+.numero-servicio {
+
+    position: absolute;
+
+    right: 25px;
+
+    top: 20px;
+
+    color: #e7d8dd;
+
+    font-size: 45px;
+
+    font-weight: 700;
+
+}
+
+
+.icono-servicio {
+
+    width: 65px;
+
+    height: 65px;
+
+    border-radius: 18px;
+
+    background-color: #fff5f8;
+
+    color: var(--rosa);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 25px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.tarjeta-servicio h3 {
+
+    font-size: 21px;
+
+    font-weight: 700;
+
+    margin-bottom: 15px;
+
+}
+
+
+.tarjeta-servicio p {
+
+    color: #75686e;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+}
+
+
+.programa {
+
+    display: inline-block;
+
+    margin-top: 10px;
+
+    color: #e75480;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+}
+
+
+.herramientas {
+
+    margin-top: 70px;
+
+    text-align: center;
+
+}
+
+
+.herramientas p {
+
+    color: #75686e;
+
+    font-size: 13px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+}
+
+
+.herramientas-lista {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 12px;
+
+    margin-top: 20px;
+
+}
+
+
+.herramientas-lista span {
+
+    border: 1px solid  #f6c1d1;
+
+    border-radius: 50px;
+
+    padding: 9px 20px;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+}
+
+
+/* ==========================================
+   PORTAFOLIO
+========================================== */
+
+.portafolio {
+
+    background-color: #f7f3f5;
+
+}
+
+
+.proyecto {
+
+    background-color: white;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    height: 100%;
+
+    transition: 0.35s;
+
+}
+
+
+.proyecto:hover {
+
+    transform: translateY(-7px);
+
+    box-shadow: 0 20px 50px rgba(55, 36, 44, 0.10);
+
+}
+
+
+.proyecto figure {
+
+    height: 330px;
+
+    overflow: hidden;
+
+    margin: 0;
+
+    position: relative;
+
+}
+
+
+.proyecto figure a {
+
+    display: block;
+
+    width: 100%;
+
+    height: 100%;
+
+    position: relative;
+
+}
+
+
+.proyecto figure img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: transform 0.5s;
+
+}
+
+
+.proyecto:hover figure img {
+
+    transform: scale(1.05);
+
+}
+
+
+.overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background-color: rgba(184, 59, 101, 0.72);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    opacity: 0;
+
+    transition: 0.3s;
+
+}
+
+
+.proyecto:hover .overlay {
+
+    opacity: 1;
+
+}
+
+
+.overlay i {
+
+    width: 55px;
+
+    height: 55px;
+
+    background-color: white;
+
+    color: #e75480;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+
+}
+
+
+.proyecto-info {
+
+    padding: 30px;
+
+}
+
+
+.proyecto-info span {
+
+    color: #e75480;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.5px;
+
+}
+
+
+.proyecto-info h3 {
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 27px;
+
+    margin: 10px 0;
+
+}
+
+
+.proyecto-info p {
+
+    color: #75686e;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+
+}
+
+
+/* ==========================================
+   CONTACTO
+========================================== */
+
+.contacto {
+
+    background-color: white;
+
+}
+
+
+.correo-contacto {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-top: 35px;
+
+}
+
+
+.correo-icono {
+
+    width: 55px;
+
+    height: 55px;
+
+    background-color: #e75480;
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.correo-contacto small {
+
+    display: block;
+
+    color: #75686e;
+
+}
+
+
+.correo-contacto a {
+
+    color: #2b2025;
+
+    font-weight: 600;
+
+}
+
+
+.formulario-contacto {
+
+    background-color: #fff5f8;
+
+    padding: 45px;
+
+    border-radius: 30px;
+
+}
+
+
+.form-label {
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+}
+
+
+.form-control {
+
+    border: 1px solid #ead6dd;
+
+    border-radius: 12px;
+
+    padding: 14px 16px;
+
+    background-color: white;
+
+}
+
+
+.form-control:focus {
+
+    border-color: #e75480;
+
+    box-shadow: 0 0 0 0.2rem rgba(231, 84, 128, 0.12);
+
+}
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer {
+
+    background-color: #2b2025;
+
+    color: white;
+
+    padding: 45px 0;
+
+}
+
+
+.footer-contenido {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 25px;
+
+}
+
+
+.footer-logo {
+
+    color: white;
+
+    font-family: "Playfair Display", serif;
+
+    font-size: 27px;
+
+    font-weight: 700;
+
+}
+
+
+.footer-logo span {
+
+    color: #e75480;
+
+}
+
+
+footer p {
+
+    margin: 0;
+
+    color: #d6cbd0;
+
+    font-size: 13px;
+
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 991px) {
+
+    .navbar-collapse {
+
+        background-color: white;
+
+        padding: 25px;
+
+        margin-top: 15px;
+
+        border-radius: 15px;
+
+    }
+
+
+    .navbar-personal .nav-link {
+
+        margin-left: 0;
+
+        margin-bottom: 10px;
+
+    }
+
+
+    .boton-contacto {
+
+        display: inline-block;
+
+    }
+
+
+    .hero {
+
+        padding-top: 100px;
+
+    }
+
+
+    .hero-texto {
+
+        text-align: center;
+
+    }
+
+
+    .hero p {
+
+        margin-left: auto;
+
+        margin-right: auto;
+
+    }
+
+
+    .hero-botones {
+
+        justify-content: center;
+
+    }
+
+
+    .contenedor-foto {
+
+        margin-top: 60px;
+
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .seccion {
+
+        padding: 80px 0;
+
+    }
+
+
+    .hero h1 {
+
+        font-size: 52px;
+
+    }
+
+
+    .hero h2 {
+
+        font-size: 18px;
+
+    }
+
+
+    .contenedor-foto {
+
+        height: 470px;
+
+    }
+
+
+    .foto-principal {
+
+        width: 320px;
+
+        height: 420px;
+
+    }
+
+
+    .decoracion-1 {
+
+        width: 200px;
+
+        height: 200px;
+
+    }
+
+
+    .acerca-grafico {
+
+        min-height: 350px;
+
+    }
+
+
+    .acerca-grafico h3 {
+
+        font-size: 40px;
+
+        margin-top: 55px;
+
+    }
+
+
+    .proyecto figure {
+
+        height: 260px;
+
+    }
+
+
+    .formulario-contacto {
+
+        padding: 30px 20px;
+
+    }
+
+
+    .footer-contenido {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .hero-botones {
+        flex-direction: column;
+    }
+
+    .hero-botones .btn {
+        width: 100%;
+    }
+
+    .foto-principal {
+        width: 280px;
+        height: 380px;
+    }
+
+    .titulo-seccion {
+        font-size: 39px;
+    }
+
+}
